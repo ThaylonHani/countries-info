@@ -1,0 +1,18 @@
+
+.search-button {
+  outline: 2px solid var(--One);
+  transition: all .1s ease-in;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.search-button:hover {
+  outline:2px solid var(--Four);
+  color: var(--Four);
+}
+#form-header {
+  width: 50%;
+}
+#src-header {
+  width: 90%;
+}

@@ -1,0 +1,42 @@
+:root{
+  --One : rgba(5, 41, 63, 1);
+  --Two : rgba(216, 215, 214, 1);
+  --Tree :rgba(191, 133, 120, 1);
+  --Four :rgba(140, 37, 28, 1); 
+  --Five :rgba(242, 80, 65, 1); 
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#062A40;
+  color:var(--Two);
+}
+.bg-one {
+  background-color: var(--One);
+}
+.bg-two {
+  background-color: var(--Two) ;
+}
+.bg-tree {
+  background-color: var(--Tree);
+}
+.bg-four {
+  background-color: var(--Four);
+}
+.bg-five{
+  background-color: var(--Five);
+}
+body main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
